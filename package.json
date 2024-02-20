@@ -1,5 +1,20 @@
 {
   "dependencies": {
     "typescript": "^5.3.3"
-  }
+  },
+  "name": "goit-typescript-hw-01",
+  "description": "- npm install -g typescript - tsc --init - tsc - tsc -w - npm init -y - npm i --save-dev @web/dev-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  
+  "devDependencies": {
+    "@web/dev-server": "^0.4.3"
+  },
+  "scripts": {
+    "start": "web-dev-server --node-resolve --open --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
