@@ -14,6 +14,10 @@
     "start": "web-dev-server --node-resolve --open --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ValeriiDerbenov/goit-typescript-hw-01.git"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC"
