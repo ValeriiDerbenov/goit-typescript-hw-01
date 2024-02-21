@@ -94,7 +94,7 @@ console.log('greet2( "Valerii", 20 ) :>> ', greet2( 'Valerii', 20 ));
 
 type Car = {
   name: string;
-  price: number;
+  price?: number;
   color: string;
   start: (color: string) => (void);
 };
@@ -104,4 +104,4 @@ function startCar(car: Car) {
   car.start(car.color);
 }
 
-startCar({ name: 'BMW', price: 10000, color: 'red', start: (color) => console.log(color) });
+startCar({ name: 'BMW', color: 'red', start: (color) => console.log(color) });

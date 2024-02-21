@@ -67,5 +67,5 @@ function startCar(car) {
     console.log('Started ' + car.name);
     car.start(car.color);
 }
-startCar({ name: 'BMW', price: 10000, color: 'red', start: (color) => console.log(color) });
+startCar({ name: 'BMW', color: 'red', start: (color) => console.log(color) });
 //# sourceMappingURL=index.js.map
